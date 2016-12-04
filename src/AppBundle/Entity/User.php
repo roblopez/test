@@ -37,7 +37,7 @@ class User extends BaseUser
      * @Assert\Regex(
      *     pattern="/^[a-zA-Z0-9 ]*$/",
      *     match=true,
-     *     message="El nombre solo puede contener letras y números."
+     *     message="El nombre solo puede contener letras y números. Sin tíldes"
      * )
      */
     protected $firstname;
@@ -60,7 +60,7 @@ class User extends BaseUser
      * @Assert\Regex(
      *     pattern="/^[a-zA-Z0-9 ]*$/",
      *     match=true,
-     *     message="El apellido solo puede contener letras y números."
+     *     message="El apellido solo puede contener letras y números. Sin tíldes"
      * )
      */
     protected $lastname;
