@@ -4,6 +4,8 @@ parameters:
 #    parameter_name: value
 
 services:
+     api_hash:
+         class: AppBundle\Utils\ApiHash
 #    service_name:
 #        class: AppBundle\Directory\ClassName
 #        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
